@@ -45,7 +45,7 @@ body {
   padding: 80px 20px;
   text-align: center;
   margin-top: 80px;
-  animation: fadeInUp 1.5s ease-out forwards;
+  animation: bounceIn 1.5s ease-out forwards;
 }
 .hero h1 {
   font-size: 3rem;
