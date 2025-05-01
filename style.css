@@ -41,7 +41,7 @@ body {
 
 /* Hero Section */
 .hero {
- min-height: 100vh;
+ min-height: 80vh;
   padding: 80px 20px;
   text-align: center;
   margin-top: 80px;
