@@ -6,8 +6,9 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: #fff;
+/*  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+ background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
+ color: #f8f9f9;
 }
 
 /* Navbar */
