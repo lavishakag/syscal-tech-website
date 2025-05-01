@@ -1,33 +1,61 @@
 <style>
-    .navbar-custom 
-   {
-      background-color: #f8f9f9; /* off-white */
-    }
- 
-.navbar, .navbar-nav .nav-link, .navbar-brand 
-{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
 }
-.offer-list li {
-  margin-bottom: 10px;
-  font-size: 16px;
+    
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+.nav-menu a::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background: #00e6e6;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: 0.4s ease;
+}
+.nav-menu a:hover::after {
+  width: 100%;
 }
 
-.navbar-nav .nav-link 
-{
-  font-size: 16px;
-  font-weight: 500;
-  color: #333;
-  margin-left: 20px;
-  transition: color 0.3s ease;
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero h1 span {
+  color: #00e6e6;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.8;
 }
 
-.navbar-nav .nav-link:hover 
-{
-  color: #007bff;
-}
 
-    .home-section 
+
+.home-section 
     {
       background-image: url('Syscal Tech Website/images/IT-Staffing.png');
       background-size: cover;
