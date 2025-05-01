@@ -41,6 +41,8 @@ body {
 
 /* Hero Section */
 .hero {
+ min-height: 200vh;
+  padding: 80px 20px;
   text-align: center;
   margin-top: 80px;
   animation: fadeInUp 1.5s ease-out forwards;
