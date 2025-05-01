@@ -1,1 +1,113 @@
+<style>
+    .navbar-custom 
+   {
+      background-color: #f8f9f9; /* off-white */
+    }
+ 
+.navbar, .navbar-nav .nav-link, .navbar-brand 
+{
+  font-family: 'Poppins', sans-serif;
+}
+.offer-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
 
+.navbar-nav .nav-link 
+{
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover 
+{
+  color: #007bff;
+}
+
+    .home-section 
+    {
+      background-image: url('Syscal Tech Website/images/IT-Staffing.png');
+      background-size: cover;
+      background-position: center 50px;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .home-section h1 
+     {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.5); /* Optional overlay for readability */
+      padding: 20px;
+      border-radius: 10px;
+      }
+
+.contact-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.contact-section .contact-icon {
+  margin-right: 10px;
+  color: #00d4ff;
+  animation: float 1.5s ease-in-out infinite;
+}
+
+.map-container {
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Icon animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.client-logo {
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.client-logo:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+    .team-img 
+{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+    .footer 
+   {
+      background-color: #f1f1f1;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+</style>
