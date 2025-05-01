@@ -1,5 +1,17 @@
 <style>
-    .navbar-custom 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+/* Navbar */
+.navbar-custom 
    {
       background-color: #f8f9f9; /* off-white */
     }
@@ -27,7 +39,24 @@
   color: #007bff;
 }
 
-    .home-section 
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero h1 span {
+  color: #00e6e6;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+/*    .home-section 
     {
       background-image: url('Syscal Tech Website/images/IT-Staffing.png');
       background-size: cover;
@@ -47,7 +76,7 @@
       padding: 20px;
       border-radius: 10px;
       }
-
+*/
 .contact-section {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
