@@ -41,11 +41,13 @@ body {
 
 /* Hero Section */
 .hero {
- min-height: 80vh;
+ min-height: 100vh;
   padding: 80px 20px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 50px;
   animation: bounceIn 1.5s ease-out forwards;
+background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
+  color: #333
 }
 .hero h1 {
   font-size: 3rem;
